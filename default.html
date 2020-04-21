@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>My title</title>
+        <script type='text/javascript'>
+         document.write("lll")
+         document.write('<h>');
+         function f()
+         {
+             var uname = document.getElementById("user").value;
+             var reg = /E00/;
+             if(reg.test(uname))
+             {
+                 alert("sahi");
+             }
+             else
+             {
+                 alert("no");
+                 document.getElementById("lb").style.visibility="visible";
+             }
+
+         }
+      
+
+            
+            
+           
+        
+      
+          
+
+        </script>
+
+    </head>
+    <body>
+
+        <form onsubmit="return f()"
+        action="another.html">
+        <input id="user" placeholder="username" type="text"/><br>
+        <label id="lb" style="color:brown;visibility : hidden">invalif</label>
+        <br>
+        
+         <button type= "button" onclick="f().style.fontsize='35px'">jama</button>
+         <button onclick="f()" type="button">jama</button>
+        </form>
+    </body>
+    
+</html>
+          
