@@ -1,0 +1,1 @@
+document.write("<h2>Heaing</h2>") ;
